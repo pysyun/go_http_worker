@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  go_http_worker:
+    image: pysyun/go_http_worker
+    privileged: true
+    deploy:
+      mode: replicated
+      replicas: 7
