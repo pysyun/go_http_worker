@@ -6,7 +6,6 @@ import (
         "io/ioutil"
         "time"
         "flag"
-        "os"
         "net/url"
         "golang.org/x/net/proxy"
 )
